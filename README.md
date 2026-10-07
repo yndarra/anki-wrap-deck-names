@@ -1,5 +1,8 @@
 # Wrap Long Deck Names
 
+**Install:** in Anki go to Tools → Add-ons → Get Add-ons… and enter the code **`1431591599`** ([AnkiWeb page](https://ankiweb.net/shared/info/1431591599)).
+**Установка:** Инструменты → Дополнения → Скачать дополнения… → код **`1431591599`**.
+
 A small Anki add-on: long deck names in the deck list **wrap onto new lines** instead of stretching the whole table across the screen. It works like AnkiMobile/AnkiDroid, but without "…". The full name is always visible.
 
 - The deck name column gets a fixed width (default `20em`). Longer names wrap inside it.
