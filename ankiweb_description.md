@@ -3,7 +3,7 @@
 <ul>
 <li>The deck name column gets a fixed width (default 20em). Longer names wrap inside it, like on mobile but without "…". The full name stays visible.</li>
 <li>Wrapped lines start under the beginning of the name, not under the subdeck indent.</li>
-<li>Settings window (Config button): the column width (20em, 300px, 30vw…). Changes apply immediately.</li>
+<li>Settings window (Config button): the name column width (20em, 300px, 30vw…) and the whole table width in % (e.g. 120 = 20% wider; the extra space goes to the names, never wider than the window). Changes apply immediately.</li>
 <li>It only touches the deck name cells, so it works with other deck-list add-ons.</li>
 </ul>
 
