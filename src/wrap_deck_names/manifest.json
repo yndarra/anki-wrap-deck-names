@@ -1,0 +1,7 @@
+{
+    "package": "wrap_deck_names",
+    "name": "Wrap Long Deck Names",
+    "homepage": "https://github.com/yndarra/anki-wrap-deck-names",
+    "conflicts": [],
+    "min_point_version": 231000
+}
