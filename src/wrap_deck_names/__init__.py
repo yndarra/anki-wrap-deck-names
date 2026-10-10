@@ -138,8 +138,11 @@ def _css(width: str) -> str:
         ".wdn-name { display: flex; align-items: baseline; }"
         ".wdn-indent { white-space: pre; flex: none; }"
         ".wdn-name .collapse { flex: none; }"
-        # Название занимает остаток строки и переносится внутри него.
-        ".wdn-name a.deck { display: block; flex: 1 1 auto; min-width: 0;"
+        # Ссылка шириной ровно с текст названия (flex: 0 1 auto): короткое название
+        # не растягивается на всю ячейку, и справа от него остаётся пустое место —
+        # туда, как и без дополнения, можно щёлкнуть с Shift, чтобы выделить строку.
+        # Длинное название сжимается до ширины столбца и переносится внутри неё.
+        ".wdn-name a.deck { display: block; flex: 0 1 auto; min-width: 0;"
         " white-space: normal; overflow-wrap: break-word; }"
         "</style>"
     )
